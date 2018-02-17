@@ -11,6 +11,7 @@ public class GoodCiAndCdApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		GoodCiAndCdApplication.main(new String[0]);
 	}
 
 }
