@@ -14,7 +14,7 @@ public class SystemInfoController {
     @GetMapping(path = "/ping")
     public String ping() {
         int AAA = 32;
-        if( true)
+        if( false)
             AAA += 4;
 
         return String.format("Service time is: %s", LocalDateTime.now().format(YYYY_MM_DD_HH_mm_ss));
