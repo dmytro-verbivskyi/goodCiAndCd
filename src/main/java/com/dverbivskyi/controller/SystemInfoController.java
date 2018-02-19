@@ -13,11 +13,12 @@ public class SystemInfoController {
 
     @GetMapping(path = "/ping")
     public String ping() {
-        int AAA = 32;
-        if( false) {
-            AAA += 3;
+        int abcDefGhJkl = 32;
+        if (false) {
+
+            abcDefGhJkl += 3;
         }
-        if (AAA % 2
+        if (abcDefGhJkl % 2
                 == 0) {
             System.out.println("ODD");
         }
