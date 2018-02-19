@@ -9,9 +9,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class GoodCiAndCdApplicationTests {
 
-	@Test
-	public void contextLoads() {
-		GoodCiAndCdApplication.main(new String[0]);
-	}
+    @Test
+    public void contextLoads() {
+        GoodCiAndCdApplication.main(new String[0]);
+    }
 
 }
