@@ -97,6 +97,8 @@
                 <configuration>
                     <configLocation>src/main/resources/checkstyle.xml</configLocation>
                     <consoleOutput>true</consoleOutput>
+                    <failOnViolation>true</failOnViolation>
+                    <includeTestSourceDirectory>true</includeTestSourceDirectory>
                 </configuration>
                 <executions>
                     <execution>

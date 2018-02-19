@@ -6,6 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+import static java.lang.System.currentTimeMillis;
+import static java.lang.System.out;
+
 @RestController
 public class SystemInfoController {
 
@@ -15,12 +18,12 @@ public class SystemInfoController {
     public String ping() {
         int abcDefGhJkl = 32;
         if (false) {
-
+            long ll = currentTimeMillis();
             abcDefGhJkl += 3;
         }
         if (abcDefGhJkl % 2
                 == 0) {
-            System.out.println("ODD");
+            out.println("ODD");
         }
 
         return String.format("Service time is: %s", LocalDateTime.now().format(YYYY_MM_DD_HH_mm_ss));
