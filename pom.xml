@@ -4,11 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.dverbivskyi</groupId>
-    <artifactId>good-ci-and-cd</artifactId>
+    <artifactId>goodCiAndCd</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>good-CI-and-CD</name>
     <description>This project goal is to demonstrate Continuous Integration and Continuous Delivery capabilities with
         free tools
     </description>
